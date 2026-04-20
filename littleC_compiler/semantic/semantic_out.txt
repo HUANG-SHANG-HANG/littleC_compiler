@@ -1,0 +1,16 @@
+=== LittleC Compilation Report ===
+Source: source.txt
+
+Lexical analysis:  OK (25 tokens)
+Syntax analysis:   OK
+Semantic analysis: OK
+
+=== Symbol Table ===
+Name      Type    Line
+----      ----    ----
+c         int     3
+b         int     3
+a         int     3
+
+=== 8086 Assembly Output ===
+(Written to asm_out.asm)

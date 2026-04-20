@@ -1,0 +1,31 @@
+=== LittleC Lexical Analysis ===
+Source file: source.txt
+Total tokens: 23
+--------------------------------------------------
+Line  Binary Tuple                Type
+--------------------------------------------------
+2     (50, "{")                   DL_{
+3     (1, "int")                  KW_INT
+3     (20, "a")                   IDENT
+3     (55, ",")                   DL_,
+3     (20, "b")                   IDENT
+3     (55, ",")                   DL_,
+3     (20, "c")                   IDENT
+3     (54, ";")                   DL_;
+4     (20, "a")                   IDENT
+4     (43, "=")                   OP_=
+4     (21, "1")                   INT_CONST
+4     (54, ";")                   DL_;
+5     (20, "b")                   IDENT
+5     (43, "=")                   OP_=
+5     (21, "2")                   INT_CONST
+5     (54, ";")                   DL_;
+6     (20, "c")                   IDENT
+6     (43, "=")                   OP_=
+6     (20, "a")                   IDENT
+6     (30, "+")                   OP_+
+6     (20, "b")                   IDENT
+6     (54, ";")                   DL_;
+7     (51, "}")                   DL_}
+
+=== No errors. ===

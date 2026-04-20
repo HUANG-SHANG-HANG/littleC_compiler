@@ -1,0 +1,24 @@
+=== LittleC Syntax Analysis ===
+Source: ../lexer/source.txt
+
+Parsing OK.
+
+=== Abstract Syntax Tree ===
+
+Program  [line 2]
+├── DeclList  [line 3]
+│   └── VarDecl (int)  [line 3]
+│       ├── Name: a  [line 3]
+│       ├── Name: b  [line 3]
+│       └── Name: c  [line 3]
+└── StmtList  [line 4]
+    ├── IntAssign -> a  [line 4]
+    │   └── Number: 1  [line 4]
+    ├── IntAssign -> b  [line 5]
+    │   └── Number: 2  [line 5]
+    └── IntAssign -> c  [line 6]
+        └── BinOp (+)  [line 6]
+            ├── BinOp (+)  [line 6]
+            │   ├── Ident: a  [line 6]
+            │   └── Ident: b  [line 6]
+            └── Ident: b  [line 6]
