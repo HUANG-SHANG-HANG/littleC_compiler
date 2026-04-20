@@ -97,8 +97,8 @@ ROP    → > | >= | < | <= | == | !=
 
 一个 LittleC 程序就是一个大花括号块<br>
 {<br>
-    - 声明部分<br>
-    - 执行部分<br>
+    <span style="margin-left: 2em;">声明部分<br>
+    <span style="margin-left: 2em;">执行部分<br>
 }<br>
 <br>
 声明部分可以有零到多条 int 变量名列表; 或 bool 变量名列表;<br>
