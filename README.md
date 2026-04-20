@@ -200,17 +200,16 @@ g++ -std=c++17 -o compiler semantic.cpp ../parser/parser.cpp ../lexer/lexer.cpp
  ## Qt 桌面程序快速开始
 
 
-前置条件
+### 前置条件
 
 
-安装  Qt （Qt 5.15+ 或 Qt 6.x），安装时勾选：
-Qt 对应版本（如 Qt 6.5.x）
-MinGW 64-bit（Windows）或使用系统编译器（Linux/Mac）
-Qt Creator
+安装  Qt （Qt 5.15+ 或 Qt 6.x），安装时勾选：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;√Qt 对应版本（如 Qt 6.5.x）<br>
+&nbsp;&nbsp;&nbsp;&nbsp;√MinGW 64-bit（Windows）或使用系统编译器（Linux/Mac）<br>
+&nbsp;&nbsp;&nbsp;&nbsp;√Qt Creator<br>
 
-构建与运行
 
-使用 Qt Creator
+### 使用 Qt Creator
 
 
 1. 打开 Qt Creator
@@ -218,16 +217,16 @@ Qt Creator
 3. 选择 Kit（如 Desktop Qt 6.x MinGW 64-bit）→ Configure Project
 4. 点击左下角 ▶ 运行（或 Ctrl+R）
 
-窗口程序
-使用方式
+### 窗口程序使用方式
 
-在左侧编辑框输入 LittleC 源代码，或点击 「选择源文件」 加载  .txt  文件
-点击中间的 「开始编译」 按钮
-右侧输出框显示结果：
+- 在左侧编辑框输入 LittleC 源代码，或点击 「选择源文件」 加载  .txt  文件
+- 点击中间的 「开始编译」 按钮
+- 右侧输出框显示结果：
 
-若有错误 → 显示错误类型、行号和详细信息
-若无错误 → 显示符号表和生成的 8086 汇编代码
-点击 「保存输出到文件」 可将结果导出为  .txt  或  .asm  文件
+&nbsp;&nbsp;&nbsp;&nbsp;若有错误 → 显示错误类型、行号和详细信息
+&nbsp;&nbsp;&nbsp;&nbsp;若无错误 → 显示符号表和生成的 8086 汇编代码
+
+- 点击 「保存输出到文件」 可将结果导出为  .txt  或  .asm  文件
 
 ##  错误类型一览
 
