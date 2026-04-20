@@ -10,8 +10,8 @@
 ---
 
 
-## 📁 项目结构
-
+##  项目结构
+```text
 littleC_compiler/
 ├── lexer/             # 词法分析器（独立可运行）
 │   ├── lexer.h
@@ -33,10 +33,11 @@ littleC_compiler/
 │   ├── parser.h / parser.cpp
 │   └── semantic.h / semantic.cpp
 └── README.md
+```
 ---
 
 
-## 📝 LittleC 语言定义
+##  LittleC 语言定义
 
 
 ### 一、词法规则
@@ -112,7 +113,7 @@ ROP    → > | >= | < | <= | == | !=
 ---
 
 
-## 🔧 各模块独立运行
+##  各模块独立运行
 
 
 ### 环境要求
@@ -215,7 +216,7 @@ BashCopy
  asm_out.asm （8086 汇编代码，仅在无错误时生成）
 
 
-🖥️ Qt 桌面程序快速开始
+ Qt 桌面程序快速开始
 
 
 前置条件
@@ -225,15 +226,15 @@ BashCopy
 
 
 
-✅ Qt 对应版本（如 Qt 6.5.x）
+ Qt 对应版本（如 Qt 6.5.x）
 
 
 
-✅ MinGW 64-bit（Windows）或使用系统编译器（Linux/Mac）
+ MinGW 64-bit（Windows）或使用系统编译器（Linux/Mac）
 
 
 
-✅ Qt Creator
+ Qt Creator
 
 
 
@@ -307,7 +308,7 @@ BashCopy
 
 
 
-⚠️ 错误类型一览
+ 错误类型一览
 
 
 编译器能检测并报告以下 15 类错误：
