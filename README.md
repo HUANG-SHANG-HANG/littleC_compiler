@@ -64,6 +64,7 @@ LittleC 源程序由以下词法单元组成：
 
 
 ### 二、语法规则（文法定义）
+```text
 PROG   → { DECLS STMTS }
 
 
@@ -95,7 +96,7 @@ JOIN   → JOIN && NOT | NOT
 NOT    → ! REL | REL
 REL    → EXPR ROP EXPR
 ROP    → > | >= | < | <= | == | !=
-
+```
 ### 三、语义规则
 
 
