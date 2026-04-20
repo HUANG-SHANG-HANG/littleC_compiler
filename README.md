@@ -97,18 +97,18 @@ ROP    → > | >= | < | <= | == | !=
 
 一个 LittleC 程序就是一个大花括号块<br>
 {<br>
-    声明部分<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;执行部分<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;声明部分<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;执行部分<br>
 }<br>
 <br>
 声明部分可以有零到多条 int 变量名列表; 或 bool 变量名列表;<br>
 变量名之间用逗号分隔。执行部分由一条或多条语句组成，语句包括：<br>
-    整型赋值 id = 算术表达式、<br>
-    布尔赋值 id := 布尔表达式、<br>
-    条件语句 if id then 语句 或 if id then 语句 else 语句、<br>
-    循环语句 while id do 语句、<br>
-    复合语句 (花括号裹多条语句)、<br>
-    I/O 语句 read id; 和 write id;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;整型赋值 id = 算术表达式、<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;布尔赋值 id := 布尔表达式、<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;条件语句 if id then 语句 或 if id then 语句 else 语句、<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;循环语句 while id do 语句、<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复合语句 (花括号裹多条语句)、<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I/O 语句 read id; 和 write id;<br>
 算术表达式按 * / 优先于 + - 的规则递归定义，支持括号和取负;<br>
 布尔表达式按 ! 优先于 && 优先于 || 的规则递归定义<br>
 关系表达式 (两个算术表达式 + 关系运算符) 产生布尔值。<br>
